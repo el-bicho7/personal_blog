@@ -1,0 +1,51 @@
+:root {
+    --dark-theme: black;
+    --dark-theme-color: white;
+    --light-theme: white;
+    --light-theme-color: black;
+    --border-size: 2px;
+}  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title {
+    display: flex;
+    border-bottom: 5px var(--border-color) solid;
+    height: 100px;
+	border-bottom: var(--border-size) solid;
+}
+
+.dark-input {
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Dark mode */
+.dark {
+    background-color: var(--dark-theme);
+    color: var(--dark-theme-color);
+}
+
+/* Light mode  */
+.light {
+    background-color: var(--light-theme);
+    color: var(--light-theme-color);
+
+}

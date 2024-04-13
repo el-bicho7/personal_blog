@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css"/>
+	<link rel="stylesheet" href="./assets/css/form.css"/>
+	<title>Bicho's Personal Blog</title>
+</head>
+<body>
+	<div class="theme dark">
+		<div>
+			<header id="title" class="title">
+				<h1></h1>
+				<input type="image" src="./assets/images/png_sun.png" alt="Theme selector" class="dark-input" id="theme-switcher">
+				
+			</header>
+		</div>
+		<div id="content" class="row">
+			<img src="./assets/images/blog_intro.PNG" alt="Blog image intro" class="image-blog">
+			<form>
+				<h2 style="text-align: center;">What's on your mind?</h2>
+				<label for="user-name">First name:</label>
+				<input type="text" id="user-name" name="user-name"/><br>
+				<label for="title-name">Title:</label>
+				<input type="text" id="title-name" name="title-name"/><br>
+				<label for="content-name">Content:</label>
+				<textarea id="content-name" name="content-name" rows="7" style="font-family: Arial, Helvetica, sans-serif;"></textarea><br>
+				<button id="submit" type="submit" value="Submit">Submit</button>
+			</form>
+		</div>
+
+		
+		<script src="./assets/js/logic.js"></script>
+		<script src="./assets/js/form.js"></script>
+	</div>
+</body>
+</html>
