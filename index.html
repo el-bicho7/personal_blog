@@ -8,16 +8,18 @@
 	<title>Bicho's Personal Blog</title>
 </head>
 <body>
-	<div class="theme dark">
+	<div class="theme light">
 		<div>
 			<header id="title" class="title">
 				<h1></h1>
-				<input type="image" src="./assets/images/png_sun.png" alt="Theme selector" class="dark-input" id="theme-switcher">
-				
+				<input type="button" value="🌞" alt="Theme selector" class="light-input" id="theme-switcher" 
+				data-light="🌞" data-dark="🌑" data-theme="light">
 			</header>
 		</div>
 		<div id="content" class="row">
-			<img src="./assets/images/blog_intro.PNG" alt="Blog image intro" class="image-blog">
+			<div class="image-blog">
+				<div class="circle"><h1>My first blog</h1></div>
+			</div>
 			<form>
 				<h2 style="text-align: center;">What's on your mind?</h2>
 				<label for="user-name">First name:</label>
@@ -26,7 +28,7 @@
 				<input type="text" id="title-name" name="title-name"/><br>
 				<label for="content-name">Content:</label>
 				<textarea id="content-name" name="content-name" rows="7" style="font-family: Arial, Helvetica, sans-serif;"></textarea><br>
-				<button id="submit" type="submit" value="Submit">Submit</button>
+				<input id="submit" type="submit" value="Submit">
 			</form>
 		</div>
 

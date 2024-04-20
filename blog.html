@@ -8,37 +8,43 @@
 	<title>Blog Page</title>
 </head>
 <body>
-	<div class="theme dark">
+	<div class="theme light">
 		<div>
 			<header id="title" class="title">
 				<h1>My First Blog</h1>
-				<button onclick="history.back()">← Back</button>
-				<input type="image" src="./assets/images/png_sun.png" alt="Theme selector" class="dark-input" id="theme-switcher">
+				<button id="back-button">← Back</button>
+				<input type="button" value="🌞" alt="Theme selector" class="light-input" id="theme-switcher" 
+				data-light="🌞" data-dark="🌑" data-theme="light">
 			</header>
 		</div>
-		<div id="content" class="row">
-			<div class="box" id="blog-title">
-				<h2 class="underline">Blog Title</h2>
-				<p></p>
+		<div class="row">
+			<div class="box">
+				<h2 id="saved-title3">Title 4</h2>
+				<p class="content" id="saved-content3"></p>
+				<h6 id="saved-autor3"></h6>
 			</div>
-			<div class="box" id="title2">
-				<h2>Title 2</h2>
-				<p></p>
+			<div class="box">
+				<h2 id="saved-title2">Title 3</h2>
+				<p class="content" id="saved-content2"></p>
+				<h6 id="saved-autor2"></h6>
 			</div>
-			<div class="box" id="title3">
-				<h2>Title 3</h2>
-				<p></p>
+			<div class="box">
+				<h2 id="saved-title1">Title 2</h2>
+				<p class="content" id="saved-content1"></p>
+				<h6 id="saved-autor1"></h6>
 			</div>
-			<div class="box" id="here-is">
-				<h2>Here is the title</h2>
-				<p></p>
+			<div class="box">
+				<h2 id="last-title">Title 1</h2>
+				<p class="content" id="content"></p>
+				<h6 id="autor-subtitle"></h6>
+
 			</div>
 		</div>
 		<footer>
-			<h4 style="text-align: center;">Made with Brains</h4>
-			<p><span style="font-weight: bold;"><em>Portofolio:</span> Cristian Loera</em></p>
-			<p><span style="font-weight: bold;"><em>Blog:</span> Full-stack Blog</em></p>
-			<p><span style="font-weight: bold;"><em>Mail:</span> loera_73@</em></p>
+			<h4 style="text-align: center;">Made by Cristian Loera</h4>
+			<p><em>Portofolio: Cristian Loera</em></p>
+			<p><em>Blog: Full Stack Flow</em></p>
+			<p><em>e-mail: <a href="https://github.com/el-bicho7">Portofolio</a></em></p>
 		</footer>
 		<script src="./assets/js/logic.js"></script>
 		<script src="./assets/js/blog.js"></script>

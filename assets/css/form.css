@@ -3,21 +3,37 @@
     width: 100%;   
 }
 
+
+.circle {
+    position:relative;
+    padding-bottom:100%;
+    /* background:gold; */
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(120,9,121,1) 23%, rgba(0,212,255,1) 100%);
+    border-radius:50%;
+}
+.circle h1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    /* left: 50%; */
+}
+
 .image-blog {
-	padding: 80px;
-	border-right:var(--border-size) solid;
-	border-top:var(--border-size) solid;
+    width: 50%;
+    /* padding: 0-50px; bigger circle */
+	padding: 30px;
+	border:var(--border-size) solid;
 	margin:5px;
-    object-fit: cover;
 }
 
 form {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    width: 100%;
-    border-top:var(--border-size) solid;
-    border-left:var(--border-size) solid;
+    width: 50%;
+    border:var(--border-size) solid;
     margin: 5px;
 }
 
@@ -35,6 +51,7 @@ form button {
     }
 
     .image-blog {
+        width: auto;
         border: var(--border-size) solid;
     }
 
@@ -51,6 +68,7 @@ form button {
     }
 
     .image-blog {
+        width: auto;
         border: var(--border-size) solid;
     }
 

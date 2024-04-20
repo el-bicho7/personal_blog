@@ -12,8 +12,12 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 100vh;
+.theme-switch {
+    height: 30px;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
 }
 
 body {
@@ -30,8 +34,8 @@ body {
 	border-bottom: var(--border-size) solid;
 }
 
-.dark-input {
-    height: 50px;
+.light-input {
+    width: 50px;
     position: absolute;
     top: 20px;
     right: 20px;
